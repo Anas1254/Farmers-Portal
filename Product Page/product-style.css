@@ -1,0 +1,94 @@
+/* navbar */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 10px 30px;
+    background-color: #007BFF;
+}
+
+.navbar-brand {
+    font-size: 26px;
+}
+
+.navbar-item {
+    padding: 0 14px;
+}
+
+.navbar-link {
+    font-size: 17px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* main content */
+
+.row {
+    margin: 0;
+}
+
+.main {
+    height: 45rem;
+}
+
+.product-img {
+    padding: 20px 20px;
+}
+
+.description {
+    padding: 40px 40px;
+}
+
+.description h3 {
+    padding: 10px 0;
+}
+
+.buttons {
+    padding: 20px 20px;
+}
+
+.buy {
+    width: 15rem;
+    height: 3rem;
+}
+
+.cart {
+    margin-left: 20px;
+    width: 15rem;
+    height: 3rem;
+}
+
+.product-bio {
+    padding: 2.5rem 0;
+}
+
+
+/* recommendation */
+
+.recommendation h3 {
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+#product-cards {
+    padding-bottom: 4rem;
+}
+
+
+/* footer */
+
+.page-footer {
+    background-color: #007BFF;
+    color: white;
+}

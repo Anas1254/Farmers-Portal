@@ -1,0 +1,172 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    padding: 20px 30px;
+    background-color: #007BFF;
+}
+
+.navbar-brand {
+    font-size: 26px;
+}
+
+.navbar-item {
+    padding: 0 14px;
+}
+
+.navbar-link {
+    font-size: 17px;
+}
+
+.page-footer {
+    background-color: #007BFF;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#carouselExampleCaptions {
+    /* padding : 20px; */
+}
+
+#product-cards {
+    padding: 100px 0;
+}
+
+
+/* This is the CSS for the sign up and login form */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e9eaea;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 45px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+.close-btn:hover {
+    color: #ccc;
+}
+
+.signup-login-container {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    overflow-y: scroll;
+}
+
+.wrapper {
+    margin: auto;
+    background-color: #fff;
+    width: 450px;
+    margin: 70px auto;
+}
+
+.SignUp,
+.Login {
+    width: 50%;
+    background: #fff;
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.SignUpForm,
+.LoginForm {
+    background: #fff;
+    box-sizing: border-box;
+    padding: 40px;
+    clear: both;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    color: #3e3e40;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.5s ease;
+}
+
+input:focus {
+    border: 2px solid #34b3a0;
+}
+
+.btn {
+    width: 100%;
+    background: #34b3a0;
+    height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+span a {
+    text-decoration: none;
+    color: #000;
+}
+
+.gender-radio {
+    width: 30%;
+}
+
+.position {
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    top: 11px;
+    left: 13px;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+.gender-label {
+    font-size: 14px;
+    position: relative;
+    left: 13px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.gender-div {
+    padding: 20px 0;
+}
+
+product-image {
+    object-fit: scale-down;
+}
